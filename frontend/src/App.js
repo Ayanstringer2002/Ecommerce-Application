@@ -246,3 +246,42 @@ function App() {
 }
 
 export default App;
+
+
+/*
+
+Logical Summary of the Code
+
+This App.js file serves as the central routing and layout controller for a full-stack e-commerce application.
+
+🔑 What This Code Does:
+
+Initializes global fonts and user authentication
+
+Sets up public, protected, and admin routes
+
+Controls page navigation using React Router
+
+Ensures secure access using role-based route protection
+
+Manages checkout, orders, wishlist, and admin operations
+
+Provides consistent UI via shared header and footer
+
+Handles UX improvements like scroll reset and notifications
+
+🔄 Application Flow
+
+App loads → User session is restored
+
+Fonts and UI are initialized
+
+User navigates via routes
+
+Protected routes validate authentication & role
+
+Admin routes render inside a dashboard layout
+
+Invalid routes show a 404 page
+
+*/
