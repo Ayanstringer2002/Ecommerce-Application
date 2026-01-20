@@ -13,3 +13,5 @@ const connectDatabase = () => {
 
 // Export the database connection function
 module.exports = connectDatabase;
+
+
