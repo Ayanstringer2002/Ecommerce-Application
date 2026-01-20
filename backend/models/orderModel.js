@@ -127,5 +127,5 @@ const orderSchema = new mongoose.Schema({
     }
 });
 
-MediaSourceHandle.exports = mongoose.model("Order", orderSchema);
+module.exports = mongoose.model("Order", orderSchema);
 
